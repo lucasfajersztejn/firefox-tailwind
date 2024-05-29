@@ -1,3 +1,5 @@
+@import url("./components/ui/Hero/HeroBody/HeroBody.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

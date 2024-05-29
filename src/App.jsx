@@ -9,7 +9,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <h1 className='text-3xl'>Hola</h1>
     </>
   )
 }
