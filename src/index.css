@@ -1,4 +1,4 @@
-@import url("./components/ui/Hero/HeroBody/HeroBody.css");
+@import url("./components/Hero/HeroBody/HeroBody.css");
 
 @tailwind base;
 @tailwind components;
