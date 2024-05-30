@@ -6,7 +6,6 @@ function InformationBody({ img }) {
     <div className="flex px-5 pb-24 items-center flex-col">
       <div className="relative w-full flex justify-center items-end">
         <img src={img} alt="Mozilla image" className="w-4/5 md:w-8/12 h-1/5 mb-10 object-cover object-center rounded" />
-
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242 532" className="absolute -z-10">
           <path fill="none" stroke="#ffba2d" stroke-width="2"
               d="M1198.8 232.3c4.7 3 6.1 9.1 3.2 13.8l-.2.3c-2.8 4.5-1.3 10.4 3.2 13.2 4.6 2.8 10.5 1.5 13.4-2.9l.2-.3c3.1-4.7 9.4-6 14.2-3.1 4.8 3 6.3 9.3 3.3 14.1-8.9 14.1-27.8 18.3-42 9.5-14.3-8.8-18.7-27.4-9.8-41.4 3-4.7 9.3-6.2 14.1-3.3l.2.1h.2z">
