@@ -1,9 +1,14 @@
-
+import info1Img from "../../assets/img/image_info1.png";
+import info2Img from "../../assets/img/image_info2.png";
+import info3Img from "../../assets/img/image_info3.png";
+import InformationBody from "./Information-body/InformationBody";
 
 function Information() {
   return (
     <section>
       <h1 className="md:text-6xl text-5xl text-center font-medium md:mt-40 md:mb-80 my-28">Mozilla Firefox your best ally</h1>
+
+      <InformationBody img={info1Img} />
     </section>
   )
 }
