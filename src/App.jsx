@@ -7,6 +7,7 @@ import content1Img from "./assets/img/image_content1.svg";
 import content2Img from "./assets/img/image_content2.svg";
 import content3Img from "./assets/img/image_content3.png";
 import Information from "./components/Information/Information";
+import Download from "./components/Download-section/Download";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Body img={content2Img} order={0}/>
       <Body img={content3Img} order={1}/>
       <Information />
+      <Download />
     </>
   );
 }

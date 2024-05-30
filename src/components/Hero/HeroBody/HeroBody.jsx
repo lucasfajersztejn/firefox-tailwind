@@ -1,6 +1,8 @@
-import "./HeroBody.css";
+
 import windowsImg from "../../../assets/img/logo_windows.png";
 import appleImg from "../../../assets/img/apple-logo.png";
+import ButtonWindows from "../../ui/Button-download/ButtonWindows";
+import ButtonMacOs from "../../ui/Button-download/ButtonMacOs";
 
 function HeroBody() {
   return (
@@ -14,21 +16,8 @@ function HeroBody() {
       </p>
 
       <div className="flex xl:flex-row md:flex-col flex-wrap w-full justify-center xl:justify-start gap-10 md:gap-0">
-        <button className="btn-download">
-          <img src={windowsImg} alt="Logo Windows" className="w-10 h-10" />
-          <span className="ml-4 flex items-start flex-col leading-none text-white">
-            <span className="text-xs uppercase">Instalar en</span>
-            <span className="font-medium text-xl">Windows</span>
-          </span>
-        </button>
-
-        <button className="btn-download xl:ml-4 md:mt-4 mt-0 xl:mt-0">
-          <img src={appleImg} alt="Logo Mac" className="w-10 h-10" />
-          <span className="ml-4 flex items-start flex-col leading-none text-white">
-            <span className="text-xs uppercase">Instalar en</span>
-            <span className="font-medium text-xl">Mac os</span>
-          </span>
-        </button>
+        <ButtonWindows img={windowsImg} span1={"Descargar en"} span2={"Windows"} />
+        <ButtonMacOs img={appleImg} span1={"Instalar en"} span2={"Mac Os"}/>
       </div>
     </div>
   );
