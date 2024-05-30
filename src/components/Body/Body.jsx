@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Body({ img, order }) {
+function Body({ img, order, className }) {
   return (
     <>
       {order === 1 ? (
@@ -11,7 +11,7 @@ function Body({ img, order }) {
         </div>
 
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
-          <img src={img} alt='' className='object-cover object-center rounded shadow-xl'/>
+          <img src={img} alt='' className={className}/>
         </div>
         </section>
       ) : (
@@ -22,7 +22,7 @@ function Body({ img, order }) {
           </div>
 
           <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:order-first'>
-            <img src={img} alt='' className='object-cover object-center rounded'/>
+            <img src={img} alt='' className={className}/>
           </div>
         </section>
       )}
