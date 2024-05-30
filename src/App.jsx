@@ -8,6 +8,7 @@ import content2Img from "./assets/img/image_content2.svg";
 import content3Img from "./assets/img/image_content3.png";
 import Information from "./components/Information/Information";
 import Download from "./components/Download-section/Download";
+import Footer from "./components/ui/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Body img={content3Img} order={1}/>
       <Information />
       <Download />
+      <Footer />
     </>
   );
 }
