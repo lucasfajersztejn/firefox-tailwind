@@ -3,7 +3,7 @@ import InformationParagraph from "./Information-paragraph/InformationParagraph";
 
 function InformationBody({ img }) {
   return (
-    <div className="flex px-5 pb-24 items-center flex-col">
+    <div className="isolate flex px-5 pb-24 items-center flex-col">
       <div className="relative w-full flex justify-center items-end">
         <img src={img} alt="Mozilla image" className="w-4/5 md:w-8/12 h-1/5 mb-10 object-cover object-center rounded" />
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242 532" className="absolute -z-10">
